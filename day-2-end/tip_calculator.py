@@ -5,7 +5,6 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this
 
 #Write your code below this line
-
 bill = input("How much is your bill? $")
 split = input("How many people will pay? ")
 result = (float(bill) / int(split) * 1.12)
