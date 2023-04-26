@@ -2,9 +2,8 @@
 
 #String data types
 name = "Abdul kahar muzakir"
-name_char = print(len(name))
+print(name)
 print("Yourname is " + name)
-#print(type(name))
 
 #Integer data types
 number = 123_4567.890
