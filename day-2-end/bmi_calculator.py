@@ -1,7 +1,7 @@
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
+height = float(input("enter your height in m: "))
+weight = int(input("enter your weight in kg: "))
 
 #Write your code
-result = (int(weight) / float(height) ** 2)
+result = weight / height ** 2
 print(int(result))
 

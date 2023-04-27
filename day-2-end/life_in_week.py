@@ -1,8 +1,8 @@
 # Life in weeks calculator
-age = input("What is your current age? ")
+age = int(input("What is your current age? "))
 
 #Write your code below this line
-until = 90 - int(age)
+until = 90 - age
 days = until * int(365)
 weeks = until * int(52)
 months = until * int(12)
