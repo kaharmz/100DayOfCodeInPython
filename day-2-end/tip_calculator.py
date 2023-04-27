@@ -13,4 +13,4 @@ percent = tip / 100
 tip_amount = bill * percent
 total = bill + tip_amount / people
 rounded = round(total, 2)
-print(f"Each person should pay: ${rounded}")
+print(f"Each person should pay: ${rounded:.2f}")
