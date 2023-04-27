@@ -5,8 +5,9 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this
 
 #Write your code below this line
-bill = input("How much is your bill? $")
-split = input("How many people will pay? ")
+print("Welcome to the tip calculator")
+bill = input("What was the total bill? $")
+split = input("What percentage tip would you like to give? 10, 12, 15? ")
 result = (float(bill) / int(split) * 1.12)
 rounded = round(result, 2)
-print(f"{rounded:.2f}")
+print(f"Each person should pay: ${rounded:.2f}")
