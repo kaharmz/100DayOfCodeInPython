@@ -69,5 +69,7 @@ if size == "L":
         elif extra_cheese == "N":
             total = medium_pizza + 0
             print(total)
+else:
+    print("Please select size pizza :)")
 
 
