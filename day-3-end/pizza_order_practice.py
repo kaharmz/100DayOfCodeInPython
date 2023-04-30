@@ -20,6 +20,7 @@ small_pizza = 15
 medium_pizza = 20
 large_pizza = 25
 
+# Size small
 if size == "S":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
@@ -35,6 +36,7 @@ if size == "S":
         elif extra_cheese == "N":
             total = small_pizza + 0
             print(total)
+# Size medium
 if size == "M":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
@@ -50,6 +52,8 @@ if size == "M":
         elif extra_cheese == "N":
             total = medium_pizza + 0
             print(total)
+
+# Size large
 if size == "L":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
