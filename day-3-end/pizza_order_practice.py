@@ -19,11 +19,13 @@ CLUE
 small_pizza = 15
 medium_pizza = 20
 large_pizza = 25
+total = 0
 
-if size == "S" and add_pepperoni == "Y":
-    total = small_pizza + 2
-    print(total)
-elif size == "M" or "L" and add_pepperoni == "Y":
-    total = medium_pizza + 3
-    print(total)
+if size == "S":
+    if add_pepperoni == "Y":
+        total = small_pizza + 2
+        print(total)
+    else:
+        total = small_pizza + 0
+        print(total)
 
