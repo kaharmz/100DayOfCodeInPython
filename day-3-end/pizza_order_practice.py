@@ -23,9 +23,27 @@ total = 0
 
 if size == "S":
     if add_pepperoni == "Y":
-        total = small_pizza + 2
-        print(total)
+        if extra_cheese == "Y":
+            total = small_pizza + 1 + 2
+            print(total)
     else:
         total = small_pizza + 0
         print(total)
+elif size == "M":
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            total = medium_pizza + 1 + 3
+            print(total)
+    else:
+        total = medium_pizza + 0
+        print(total)
+elif size == "L":
+    if add_pepperoni == "Y":
+        if extra_cheese == "Y":
+            total = large_pizza + 1 + 3
+            print(total)
+    else:
+        total = medium_pizza + 0
+        print(total)
+
 
