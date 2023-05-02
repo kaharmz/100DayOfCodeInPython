@@ -30,15 +30,3 @@ elif 40 >= love_score <= 50:
 #Otherwise, the message will just be their score. e.g.:
 else:
     print(f"Your score is {love_score}.")
-
-
-
-
-
-
-
-
-
-
-
-
