@@ -26,14 +26,14 @@ if size == "S":
         if extra_cheese == "Y":
             total = small_pizza + 1 + 2
             print(f"Your final bill is: ${total}.")
-        elif extra_cheese == "N":
+        else:
             total = small_pizza + 2
             print(f"Your final bill is: ${total}.")
-    elif add_pepperoni == "N":
+    else:
         if extra_cheese == "Y":
             total = small_pizza + 1
             print(f"Your final bill is: ${total}.")
-        elif extra_cheese == "N":
+        else:
             total = small_pizza + 0
             print(f"Your final bill is: ${total}.")
 # Size medium
@@ -42,14 +42,14 @@ elif size == "M":
         if extra_cheese == "Y":
             total = medium_pizza + 1 + 3
             print(f"Your final bill is: ${total}.")
-        elif extra_cheese == "N":
+        else:
             total = medium_pizza + 3
             print(f"Your final bill is: ${total}.")
-    elif add_pepperoni == "N":
+    else:
         if extra_cheese == "Y":
             total = medium_pizza + 1
             print(f"Your final bill is: ${total}.")
-        elif extra_cheese == "N":
+        else:
             total = medium_pizza + 0
             print(f"Your final bill is: ${total}.")
 
@@ -59,14 +59,14 @@ elif size == "L":
         if extra_cheese == "Y":
             total = large_pizza + 1 + 3
             print(f"Your final bill is: ${total}.")
-        elif extra_cheese == "N":
+        else:
             total = large_pizza + 3
             print(f"Your final bill is: ${total}.")
-    elif add_pepperoni == "N":
+    else:
         if extra_cheese == "Y":
             total = large_pizza + 1
             print(f"Your final bill is: ${total}.")
-        elif extra_cheese == "N":
+        else:
             total = large_pizza + 0
             print(f"Your final bill is: ${total}.")
 else:
