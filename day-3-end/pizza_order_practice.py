@@ -25,50 +25,50 @@ if size == "S":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
             total = small_pizza + 1 + 2
-            print(total)
+            print(f"Your final bill is: ${total}.")
         elif extra_cheese == "N":
             total = small_pizza + 2
-            print(total)
+            print(f"Your final bill is: ${total}.")
     elif add_pepperoni == "N":
         if extra_cheese == "Y":
             total = small_pizza + 1
-            print(total)
+            print(f"Your final bill is: ${total}.")
         elif extra_cheese == "N":
             total = small_pizza + 0
-            print(total)
+            print(f"Your final bill is: ${total}.")
 # Size medium
 if size == "M":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
             total = medium_pizza + 1 + 3
-            print(total)
+            print(f"Your final bill is: ${total}.")
         elif extra_cheese == "N":
             total = medium_pizza + 3
-            print(total)
+            print(f"Your final bill is: ${total}.")
     elif add_pepperoni == "N":
         if extra_cheese == "Y":
             total = medium_pizza + 1
-            print(total)
+            print(f"Your final bill is: ${total}.")
         elif extra_cheese == "N":
             total = medium_pizza + 0
-            print(total)
+            print(f"Your final bill is: ${total}.")
 
 # Size large
 if size == "L":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
             total = large_pizza + 1 + 3
-            print(total)
+            print(f"Your final bill is: ${total}.")
         elif extra_cheese == "N":
             total = large_pizza + 3
-            print(total)
+            print(f"Your final bill is: ${total}.")
     elif add_pepperoni == "N":
         if extra_cheese == "Y":
             total = large_pizza + 1
-            print(total)
+            print(f"Your final bill is: ${total}.")
         elif extra_cheese == "N":
-            total = medium_pizza + 0
-            print(total)
+            total = large_pizza + 0
+            print(f"Your final bill is: ${total}.")
 else:
     print("Please select size pizza :)")
 
