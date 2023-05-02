@@ -71,4 +71,3 @@ if size == "L":
             print(f"Your final bill is: ${total}.")
 else:
     print("Please select size pizza :)")
-
