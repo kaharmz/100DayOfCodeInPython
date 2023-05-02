@@ -70,4 +70,4 @@ elif size == "L":
             total = large_pizza + 0
             print(f"Your final bill is: ${total}.")
 else:
-    print("Please select size pizza :)")
+    print("I'm sorry your choice it's not on the menus :)")
