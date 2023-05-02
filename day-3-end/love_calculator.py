@@ -5,7 +5,6 @@ name2 = input("What is their name? \n")
 # Don't change the code above
 
 #Write your code below this line
-
 merge_name = (name1 + name2).lower()
 
 true_count = 0
@@ -22,10 +21,13 @@ for name_two in set("love"):
 # combine these numbers to make a 2 digit number.
 love_score = int(str(true_count) + str(love_count))
 
+# For Love Scores less than 10 or greater than 90
 if love_score < 10 or love_score > 90:
     print(f"Your score is {love_score}, you go together like coke and mentos.")
+#For Love Scores between 40 and 50
 elif 40 >= love_score <= 50:
     print(f"Your score is {love_score}, you are alright together.")
+#Otherwise, the message will just be their score. e.g.:
 else:
     print(f"Your score is {love_score}.")
 
@@ -38,6 +40,5 @@ else:
 
 
 
-# For Love Scores less than 10 or greater than 90
-#For Love Scores between 40 and 50
-#Otherwise, the message will just be their score. e.g.:
+
+
