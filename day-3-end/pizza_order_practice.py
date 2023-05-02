@@ -37,7 +37,7 @@ if size == "S":
             total = small_pizza + 0
             print(f"Your final bill is: ${total}.")
 # Size medium
-if size == "M":
+elif size == "M":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
             total = medium_pizza + 1 + 3
@@ -54,7 +54,7 @@ if size == "M":
             print(f"Your final bill is: ${total}.")
 
 # Size large
-if size == "L":
+elif size == "L":
     if add_pepperoni == "Y":
         if extra_cheese == "Y":
             total = large_pizza + 1 + 3
