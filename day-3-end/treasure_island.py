@@ -51,4 +51,3 @@ if choice_one == 'left':
 else:
     # If choice 'right' Fall into a hole.Game Over.
     print('Fall into a hole.Game Over.')
-
