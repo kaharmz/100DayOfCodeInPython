@@ -45,9 +45,9 @@ if choice_one == 'left':
         # If choice 'blue' You enter a room of beasts. Game Over.
         else:
             print('You enter a room of beasts. Game Over.')
+    # If choice 'swim' You get attacked by an angry trout. Game Over.
     else:
-        # If choice 'swim' You get attacked by an angry trout. Game Over.
         print('You get attacked by an angry trout. Game Over.')
+# If choice 'right' Fall into a hole.Game Over.
 else:
-    # If choice 'right' Fall into a hole.Game Over.
     print('Fall into a hole.Game Over.')
