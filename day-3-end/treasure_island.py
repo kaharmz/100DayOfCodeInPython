@@ -45,6 +45,7 @@ if choice_one == 'left':
         # If choice 'blue' You enter a room of beasts. Game Over.
         elif choice_three == 'blue':
             print('You enter a room of beasts. Game Over.')
+        # If you choose a door that is not in the options
         else:
             print('You choose a dor that doesnt exist. Game Over.')
     # If choice 'swim' You get attacked by an angry trout. Game Over.
