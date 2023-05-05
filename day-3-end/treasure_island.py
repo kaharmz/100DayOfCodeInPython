@@ -43,8 +43,10 @@ if choice_one == 'left':
         elif choice_three == 'red':
             print("It's a room full of fire. Game Over.")
         # If choice 'blue' You enter a room of beasts. Game Over.
-        else:
+        elif choice_three == 'blue':
             print('You enter a room of beasts. Game Over.')
+        else:
+            print('You choose a dor that doesnt exist. Game Over.')
     # If choice 'swim' You get attacked by an angry trout. Game Over.
     else:
         print('You get attacked by an angry trout. Game Over.')
