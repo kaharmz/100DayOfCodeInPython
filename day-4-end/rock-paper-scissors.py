@@ -42,7 +42,7 @@ print(random_list[computer_chose])
 
 if human_chose == 0:
     if computer_chose == 0:
-        print("Draw!")
+        print("Its a draw!")
     elif computer_chose == 1:
         print("You lose!")
     else:
@@ -51,7 +51,7 @@ elif human_chose == 1:
     if computer_chose == 0:
         print("You win!")
     elif computer_chose == 1:
-        print("Draw!")
+        print("Its a draw!")
     else:
         print("You lose!")
 elif human_chose == 2:
@@ -60,7 +60,7 @@ elif human_chose == 2:
     elif computer_chose == 1:
         print("You win!")
     else:
-        print("Draw!")
+        print("Its a draw!")
 else:
     print("You typed an invalid number, you lose!")
 
