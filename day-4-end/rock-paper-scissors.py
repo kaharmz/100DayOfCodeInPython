@@ -39,56 +39,41 @@ computer_chose = random.choice(computer_random)
 #Human chose
 if human_chose == 0:
     print(rock)
+    print("Computer chose:")
     if computer_chose == computer_random[0]:
-        print("Computer chose:")
         print(rock)
-        results = "Draw!"
-        print(results)
+        print("Draw!")
     elif computer_chose == computer_random[1]:
-        print("Computer chose:")
         print(paper)
-        result = "You lose!"
-        print(result)
+        print("You lose!")
     else:
-        print("Computer chose:")
         print(scissors)
-        results = "You win!"
-        print(results)
+        print("You win!")
 
 elif human_chose == 1:
     print(paper)
+    print("Computer chose:")
     if computer_chose == computer_random[0]:
-        print("Computer chose:")
         print(rock)
-        results = "You win!"
-        print(results)
+        print("You win!")
     elif computer_chose == computer_random[1]:
-        print("Computer chose:")
         print(paper)
-        result = "Draw!"
-        print(result)
+        print("Draw!")
     else:
-        print("Computer chose:")
         print(scissors)
-        results = "You lose!"
-        print(results)
+        print("You lose!")
 else:
     print(scissors)
+    print("Computer chose:")
     if computer_chose == computer_random[0]:
-        print("Computer chose:")
         print(rock)
-        results = "You lose!"
-        print(results)
+        print("You lose!")
     elif computer_chose == computer_random[1]:
-        print("Computer chose:")
         print(paper)
-        result = "You win!"
-        print(result)
+        print("You win!")
     else:
-        print("Computer chose:")
         print(scissors)
-        results = "Draw!"
-        print(results)
+        print("Draw!")
 
 
 
