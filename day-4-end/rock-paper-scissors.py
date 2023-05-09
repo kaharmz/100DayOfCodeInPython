@@ -40,6 +40,7 @@ computer_chose = random.randint(0, 2)
 print("Computer chose:")
 print(random_list[computer_chose])
 
+#Cek condition
 if human_chose == 0:
     if computer_chose == 0:
         print("Its a draw!")
