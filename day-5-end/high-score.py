@@ -7,7 +7,7 @@ print(student_scores)
 
 #Write your code below this row
 
-max_score = student_scores[0]
+max_score = 0
 
 for score in student_scores:
     #If score more than max score, max score together with score
