@@ -12,6 +12,7 @@ total_sum = 0
 for student in student_heights:
   total_sum += student
   total_index += 1
-average = total_sum / total_index
 #The average height can be calculated by adding all the heights together and dividing by the total number of heights.
+average = total_sum / total_index
+
 print(round(average))
