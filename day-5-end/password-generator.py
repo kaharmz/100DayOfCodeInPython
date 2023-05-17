@@ -4,6 +4,15 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+', '?', '>', '<', '|', '-', '_', '@', '=']
 
+char = '''
+     8 8 8 8                     ,ooo.
+     8a8 8a8                    oP   ?b
+    d888a888zzzzzzzzzzzzzzzzzzzz8     8b
+     `""^""'                    ?o___oP'
+'''
+
+print(char)
+
 print("Welcome to the PyPassword Generator!")
 inp_letters = int(input("How many letters would you like in your password?\n"))
 inp_symbols = int(input("How many symbols would you like?\n"))
