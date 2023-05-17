@@ -12,7 +12,6 @@ char = '''
 '''
 
 print(char)
-
 print("Welcome to the PyPassword Generator!")
 inp_letters = int(input("How many letters would you like in your password?\n"))
 inp_symbols = int(input("How many symbols would you like?\n"))
