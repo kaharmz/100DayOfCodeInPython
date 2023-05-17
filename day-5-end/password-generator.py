@@ -33,4 +33,3 @@ for number in range(inp_numbers):
 
 generates = random.sample(result, len(result))
 print(f"Here is your password: {''.join(generates)}")
-
