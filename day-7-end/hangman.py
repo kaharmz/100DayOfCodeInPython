@@ -3,7 +3,7 @@
 
 import random
 
-word_list = ["aardvark", "baboon", "camel"]
+word_list = ["aardvark", "baboon", "camel", "dog", "cat", "snake"]
 chosen_word = random.choice(word_list)
 
 #Testing code
