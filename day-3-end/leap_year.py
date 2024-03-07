@@ -1,8 +1,5 @@
-# Don't change the code below
-year = int(input("Which year do you want to check? "))
-# Don't change the code above
 
-# Write your code below this line
+year = int(input("Which year do you want to check? "))
 
 # every year that is evenly divisible by 4
 if year % 4 == 0:
