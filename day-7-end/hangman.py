@@ -19,8 +19,9 @@ while not end_of_game:
     #Check guessed letter
     for position in range(word_length):
         letter = chosen_word[position]
-        if letter == guess:
-            display[position] = letter
+        if letter != guess:
+            continue
+        display[position] = letter
     print(display)
     #Check if there are no more "_" left in 'display'. Then all letters have been guessed.
     if "_" not in display:
