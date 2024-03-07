@@ -32,11 +32,10 @@ scissors = """
 
 random_list = [rock, paper, scissors]
 
-#Human chose
+# Human chose
 human_chose = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 
-
-#Cek condition
+# Cek condition
 if human_chose > 2:
     print("You typed an invalid number, you lose!")
 else:
@@ -68,8 +67,3 @@ else:
             print("You win!")
         else:
             print("Its a draw!")
-
-
-
-
-

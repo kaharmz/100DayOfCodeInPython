@@ -8,4 +8,3 @@ b = two_digit_number[1]
 c = int(a) + int(b)
 print("%s + %s = %s" % (a, b, c))
 print(c)
-

@@ -3,7 +3,7 @@ height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 # Don't change the code above
 
-#Write your code below this line
+# Write your code below this line
 # "Your BMI is 18, you are underweight."
 # "Your BMI is 22, you have a normal weight."
 # "Your BMI is 28, you are slightly overweight."

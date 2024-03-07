@@ -15,7 +15,7 @@ CLUE
     Extra cheese for any size pizza: + $1
 """
 
-#Write your code below this line
+# Write your code below this line
 small_pizza = 15
 medium_pizza = 20
 large_pizza = 25

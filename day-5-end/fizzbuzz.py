@@ -1,4 +1,4 @@
-#Your program should print each number from 1 to 100 in turn.
+# Your program should print each number from 1 to 100 in turn.
 for number in range(1, 101):
     # And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"
     if number % 3 == 0 and number % 5 == 0:
