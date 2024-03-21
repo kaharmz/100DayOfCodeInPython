@@ -15,4 +15,6 @@ for student in student_heights:
 # The average height can be calculated by adding all the heights together and dividing by the total number of heights.
 average = total_sum / total_index
 
-print(round(average))
+print(f"total height = {total_sum}")
+print(f"number of students = {total_index}")
+print(f"average height = {round(average)}")
